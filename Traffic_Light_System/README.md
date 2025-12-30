@@ -4,14 +4,14 @@ Simple circuit to demonstrate a simplified 4 way traffic light system. Utilizes 
 
 There are 4 lanes: lane 1 and 3 are parallel and lanes 2 and 4 are parallel. 
 
-| 1 | 3 |
-|   |   |
-|   |   |
-|   |   |__________________
-                      2
-         ------------------
-                      4   
-         __________________ 
+| 1 | 3 |<br>
+|   |   |<br>
+|   |   |<br>
+|   |   |__________________<br>
+                      2<br>
+         ------------------<br>
+                      4   <br>
+         __________________ <br>
 
 For simplicity we will ignore left turn and right turn lights.
 
