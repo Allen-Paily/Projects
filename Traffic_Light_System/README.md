@@ -4,15 +4,20 @@ Simple circuit to demonstrate a simplified 4 way traffic light system. Utilizes 
 
 There are 4 lanes: lane 1 and 3 are parallel and lanes 2 and 4 are parallel. 
 
-| 1 | 3|<br>
-|&ensp;  |&emsp;|<br>
-|   |   |<br>
-|   |   |__________________<br>
-                      2<br>
-         ------------------<br>
-                      4   <br>
-         __________________ <br>
-
+```
+                  | 1 | 3 |
+                  |   |   |
+                  |   |   |
+       ___________|   |   |___________
+       2                              2
+       -----------         -----------
+       4                              4   
+       ___________         ___________
+                  | 1 | 3 |
+                  |   |   |
+                  |   |   |
+                  |   |   | 
+```
 For simplicity we will ignore left turn and right turn lights.
 
 6 states are needed for a 4 way traffic light stop:
